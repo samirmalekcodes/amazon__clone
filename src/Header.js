@@ -8,19 +8,21 @@ function Header() {
   return (
     <div className="Header">
       {/* Logo */}
-      <div className="Header-Logo">
-        <img
-          src={
-            "https://mikekitko.com/wp-content/uploads/2019/10/amazon-logo-white-768x232.png"
-          }
-        />
-      </div>
+      <Link to="/">
+        <div className="Header-logo">
+          <img
+            src={
+              "https://mikekitko.com/wp-content/uploads/2019/10amazon-logo-white-768x232.png"
+            }
+          />
+        </div>
+      </Link>
       {/* Address */}
       <div className="Header-optionAddress">
         {/* icon */}
         <div className="Header-option">
-          <span className="Header-optionLine1"> Hello, </span>
-          <span className="Header-optionLine2"> Select your address </span>
+          <span className="Header-optionLineOne">Hello,</span>
+          <span className="Header-optionLineTwo">Select your address</span>
         </div>
       </div>
       {/* Search */}
@@ -33,7 +35,7 @@ function Header() {
       <div className="Header-navItems">
         {/* Login name */}
         <div className="Header-option">
-          <span className="Header-optionLineOne">Hello, Nazariy</span>
+          <span className="Header-optionLineOne">Hello,Samir </span>
           <span className="Header-optionLineTwo">Account & Lsits</span>
         </div>
         {/* Orders */}
