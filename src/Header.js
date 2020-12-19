@@ -12,8 +12,9 @@ function Header() {
         <div className="Header-logo">
           <img
             src={
-              "https://mikekitko.com/wp-content/uploads/2019/10amazon-logo-white-768x232.png"
+              "https://oralcancerfoundation.org/wp-content/uploads/2018/11/white-amazon-logo-png-6.png"
             }
+            alt="Amazon Logo"
           />
         </div>
       </Link>
