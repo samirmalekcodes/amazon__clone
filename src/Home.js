@@ -26,7 +26,7 @@ function Home() {
         setSecondRow(tempProductsSecondRow);
       });
     });
-  }, []);
+  }, [productsTotal]);
 
   return (
     <div className="Home">
